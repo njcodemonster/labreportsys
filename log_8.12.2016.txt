@@ -1,0 +1,100 @@
+user: ::1 - December 8, 2016, 11:37 am
+status: 1
+error: 0
+success: Patient data submitted.Document uploaded.
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 8, 2016, 11:41 am
+status: 1
+error: 0
+success: Patient data submitted.Document uploaded.
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 8, 2016, 12:03 pm
+status: 
+error: You Should fill Phone or Email with Name.
+private_key: 
+action: View Records
+-------------------------
+user: ::1 - December 8, 2016, 12:30 pm
+status: 
+error: Lab Name & Phone is empty.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 8, 2016, 12:30 pm
+status: 1
+error: 0
+private_key: 62b0de5729519137fdc1d9494db11dd4
+action: Create New Lab
+-------------------------
+user: ::1 - December 8, 2016, 1:13 pm
+status: 1
+error: 0
+success: Patient data submitted.
+warning: You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 8, 2016, 1:14 pm
+status: 1
+error: 0
+success: Patient data submitted.
+warning: You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 8, 2016, 1:22 pm
+status: 1
+error: 0
+private_key: 818f5c311feb2df9ab65981aada91482
+action: View Reports
+-------------------------
+user: ::1 - December 8, 2016, 1:24 pm
+status: 1
+error: 0
+private_key: 24b86fa7ba4978e92db0621fc51f99e6
+action: View Reports
+-------------------------
+user: ::1 - December 8, 2016, 1:25 pm
+status: 1
+error: 0
+private_key: 0f41a886b304c0e291f9f62339d2c871
+action: View Reports
+-------------------------
+user: ::1 - December 8, 2016, 1:26 pm
+status: 1
+error: 0
+private_key: 1fe97ad193084d0b244e7dcb8155e390
+action: View Reports
+-------------------------
+user: ::1 - December 8, 2016, 1:48 pm
+status: 1
+error: 0
+private_key: f4e404c79e3c2c160aa5f91d91143730
+action: View Reports
+-------------------------
+user: ::1 - December 8, 2016, 1:48 pm
+status: 1
+error: 0
+private_key: 41c7a77fe09f7c0ecd5c243199710cf4
+action: View Reports
+-------------------------
+user: ::1 - December 8, 2016, 1:49 pm
+status: 
+error: Name, Email & Phone does not exists.
+private_key: 
+action: View Reports
+-------------------------
+user: ::1 - December 8, 2016, 2:08 pm
+status: 
+error: Name, Email & Phone does not exists.
+private_key: 
+action: View Reports
+-------------------------
+user: ::1 - December 8, 2016, 2:08 pm
+status: 1
+error: 0
+private_key: e3bb9780e4366fd4de3d13af6a8e4194
+action: View Reports
+-------------------------
