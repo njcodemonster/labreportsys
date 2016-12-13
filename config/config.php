@@ -4,14 +4,14 @@ define('SITE_NAME', '7c Report');
 class db_connection{
 
 			/** database name */
-			protected $_db_name = "7c_report";
-
+			protected $_db_name = "7c_report";    // local
+//                        protected $_db_name = "jeftest_labreportsys";   //live
 			/** username */
-			protected $_db_user = "root";
-
+			protected $_db_user = "root";         // local
+//                        protected $_db_user = "jeftest_labrepo";        //live
 			/** password */
-			protected $_db_password = "";
-
+			protected $_db_password = "";         // local
+//                        protected $_db_password = "ZLbXCTu2IzRFZimB";   //live
 			/** host */
 			protected $_host = "localhost";
 

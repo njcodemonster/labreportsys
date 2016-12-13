@@ -1,15 +1,4 @@
 <?php
-	/**
-	 * My PDO database class.
-	 *
-	 * @package PDO / Database
-	 * @author  Tariq Ali <tariq.webstar@gmail.com>
-	 * @link    http://www.tariqalidev.com
-	 * @version 2.0.0
-	**/
-?>
-
-<?php
 	class Database extends db_connection{
 		
 		private static $_dbManagerInstance;
@@ -21,7 +10,7 @@
 		
 		protected      $_production_mode     = false;
 	    private        $_error_message       = "We are currently experiencing technical difficulties.";
-	    private        $_errors_email        = 'tariq.webstar@gmail.com';
+	    private        $_errors_email        = 'majid.7ctech@gmail.com';
 	
 	    private        $_dbtype              = "mysql";
 	    protected      $_port                = 3306; // default port for MySQL
