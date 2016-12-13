@@ -4,3 +4,381 @@ error: 0
 private_key: 6e28592204960a33c55df4a0812cb3a4
 action: Create New Lab
 -------------------------
+user: ::1 - December 13, 2016, 2:34 pm
+status: 
+error: Lab Name & Phone already exists.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:34 pm
+status: 
+error: Lab Name & Phone already exists.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:38 pm
+status: 
+error: Lab Name & Phone already exists.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:39 pm
+status: 1
+error: 0
+private_key: 8ce67fba5035411f54e74db41c954e0a
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:41 pm
+status: 
+error: Lab Name or Phone or passcode is empty.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:42 pm
+status: 
+error: Lab Name or Phone or passcode or master key is empty.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:42 pm
+status: 
+error: Lab Name or Phone or passcode or master key is empty.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:42 pm
+status: 1
+error: 0
+private_key: d1109ce4553067de3975a9b55c08f402
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:43 pm
+status: 
+error: Lab Name or Phone or passcode or master key is empty.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:43 pm
+status: 
+error: Lab Name or Phone or passcode or master key is empty.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:43 pm
+status: 
+error: Lab Name & Phone already exists.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:48 pm
+status: 
+error: Lab Name & Phone already exists.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:48 pm
+status: 
+error: Lab Name & Phone already exists.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:49 pm
+status: 
+error: Master Key did not match.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:50 pm
+status: 
+error: Lab Name or Person Name or Phone or passcode or master key is empty.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 2:51 pm
+status: 1
+error: 0
+private_key: f71ea987a6de2534859bad61c506249b
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:00 pm
+status: 
+error: Lab Name or Person Name or Phone or passcode or master key is empty.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:02 pm
+status: 
+error: Lab Name & Phone already exists.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:03 pm
+status: 
+error: Lab Name or Person Name or Phone or passcode or master key is empty.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:04 pm
+status: 1
+error: 0
+private_key: bc0662867d09bf673e3774b43f90f3e4
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:05 pm
+status: 
+error: Lab Name & Phone already exists.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:05 pm
+status: 1
+error: 0
+private_key: 847cfcec9cf78dd9cbf0dec71ac84851
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:06 pm
+status: 1
+error: 0
+private_key: dffb8fc140ab340b37d0e839a6cb813d
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:08 pm
+status: 1
+error: 0
+private_key: 5ea6332a159e9eefd8b00b447166b7a9
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:09 pm
+status: 1
+error: 0
+private_key: b636fd739bb614bd17bb25210c68bed0
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:11 pm
+status: 
+error: Lab Name & Phone already exists.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:17 pm
+status: 
+error: Master Key did not match.
+private_key: 
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:19 pm
+status: 1
+error: 0
+private_key: edb55bb5fb3b7df1ef93c3a626c33ed3
+action: Create New Lab
+-------------------------
+user: ::1 - December 13, 2016, 3:22 pm
+status: 1
+error: 0
+success: Patient data submitted.
+warning: You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:23 pm
+status: 1
+error: 0
+success: Patient data submitted.
+warning: You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:24 pm
+status: 1
+error: 0
+success: Patient data submitted.
+warning: You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:25 pm
+status: 1
+error: 0
+success: Patient data submitted.
+warning: You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:28 pm
+status: 1
+error: 0
+success: 
+warning: You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:30 pm
+status: 1
+error: 0
+success: 
+warning: Patient data already exist.You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:31 pm
+status: 
+error: PrivateKey or Passcode did not match.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:31 pm
+status: 
+error: PrivateKey or Passcode did not match.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:31 pm
+status: 
+error: PrivateKey or Passcode did not match.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:33 pm
+status: 
+error: PrivateKey or Passcode did not match.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:33 pm
+status: 
+error: PrivateKey or Passcode did not match.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:33 pm
+status: 
+error: PrivateKey or Passcode or Phone number is empty.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:34 pm
+status: 
+error: PrivateKey or Passcode or Phone number is empty.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:34 pm
+status: 
+error: PrivateKey or Passcode or Phone number is empty.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:35 pm
+status: 
+error: PrivateKey or Passcode or Phone number is empty.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:35 pm
+status: 
+error: PrivateKey or Passcode did not match.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:35 pm
+status: 
+error: PrivateKey or Passcode did not match.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:35 pm
+status: 1
+error: 0
+success: 
+warning: Patient data already exist.You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:37 pm
+status: 1
+error: 0
+success: Patient data submitted.
+warning: You did not enter the email.Document uploaded with no Email
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:38 pm
+status: 
+error: PrivateKey or Passcode or Phone number is empty.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:39 pm
+status: 1
+error: 0
+success: 
+warning: Patient data already exist.You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:40 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:42 pm
+status: 1
+error: 0
+success: 
+warning: Patient data already exist.You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:43 pm
+status: 1
+error: 0
+success: Patient data submitted.
+warning: You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:44 pm
+status: 1
+error: 0
+success: Patient data submitted.
+warning: You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:48 pm
+status: 1
+error: 0
+success: 
+warning: You did not enter the email.You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:49 pm
+status: 1
+error: 0
+success: 
+warning: You did not enter the email.You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:50 pm
+status: 1
+error: 0
+success: 
+warning: You did not enter the email.Document uploaded with no Email
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:54 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 13, 2016, 3:56 pm
+status: 1
+error: 0
+success: 
+warning: Patient data already exist.You did not upload the file.
+action: Adding Report
+-------------------------

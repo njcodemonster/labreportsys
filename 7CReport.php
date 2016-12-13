@@ -7,7 +7,7 @@ $error = 0;
 $success = "";
 $warning = "";
 
-if (isset($_POST['PrivateKey']) && isset($_POST['Passcode']) && isset($_POST['phoneNumber']) && !empty($_POST['phoneNumber'])) {
+if (!empty($_POST['PrivateKey']) && !empty($_POST['Passcode']) && !empty($_POST['phoneNumber'])) {
 
     $report_name = $_POST['reportName'];
 
@@ -29,11 +29,13 @@ if (isset($_POST['PrivateKey']) && isset($_POST['Passcode']) && isset($_POST['ph
 
                 if ($p_check['num_rows'] < 1) {
                     $patient_id = $obj->AddPatient($p_data);
+                    $success = "Patient data submitted.";
                 } else {
                     $patient_id = $p_check['rows'][0]->p_id;
+                    $warning = "Patient data already exist.";
                 }
                 $status = true;
-                $success = "Patient data submitted.";
+                
                 
                 
             } else if (empty($_POST['PatientName']) && !empty($_POST['phoneNumber']) && !empty($_POST['email'])) {
@@ -43,12 +45,14 @@ if (isset($_POST['PrivateKey']) && isset($_POST['Passcode']) && isset($_POST['ph
 
                 if ($p_check['num_rows'] < 1) {
                     $patient_id = $obj->AddPatient($p_data);
+                    $success = "Patient data submitted.";
                 } else {
                     $patient_id = $p_check['rows'][0]->p_id;
+                    $warning = "Patient data already exist.";
                 }
                 $patient_id;
                 $status = true;
-                $success = "Patient data submitted.";
+                
             } else if (empty($_POST['PatientName']) && !empty($_POST['phoneNumber']) && empty($_POST['email'])) {
 
                 $p_check = $obj->CheckPatient(null, $_POST['phoneNumber'], null);
@@ -56,12 +60,12 @@ if (isset($_POST['PrivateKey']) && isset($_POST['Passcode']) && isset($_POST['ph
 
                 if ($p_check['num_rows'] < 1) {
                     $patient_id = $obj->AddPatient($p_data);
+                    $success = "Patient data submitted.";
                 } else {
                     $patient_id = $p_check['rows'][0]->p_id;
                 }
                 $patient_id;
                 $status = true;
-                $success = "Patient data submitted.";
                 $warning = "You did not enter the email.";
                 
             } else if (!empty($_POST['PatientName']) && !empty($_POST['phoneNumber']) && empty($_POST['email'])) {
@@ -71,12 +75,12 @@ if (isset($_POST['PrivateKey']) && isset($_POST['Passcode']) && isset($_POST['ph
 
                 if ($p_check['num_rows'] < 1) {
                     $patient_id = $obj->AddPatient($p_data);
+                    $success = "Patient data submitted.";
                 } else {
                     $patient_id = $p_check['rows'][0]->p_id;
                 }
                 $patient_id;
                 $status = true;
-                $success = "Patient data submitted.";
                 $warning = "You did not enter the email.";
             }
 
@@ -138,7 +142,7 @@ if (isset($_POST['PrivateKey']) && isset($_POST['Passcode']) && isset($_POST['ph
 //        print_r(json_encode($return));
     }
 } else {
-    $error = "PrivateKey or Passcode did not match.";
+    $error = "PrivateKey or Passcode or Phone number is empty.";
     //$return = array('status' => false, 'error' => "PrivateKey or Passcode did not match.");
 //    print_r(json_encode($return));
 }

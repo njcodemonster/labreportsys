@@ -5,7 +5,7 @@ class db_connection{
 
 			/** database name */
 			protected $_db_name = "7c_report";    // local
-//                        protected $_db_name = "jeftest_labreportsys";   //live
+//                        protected $_db_name = "jeftest_~";   //live
 			/** username */
 			protected $_db_user = "root";         // local
 //                        protected $_db_user = "jeftest_labrepo";        //live

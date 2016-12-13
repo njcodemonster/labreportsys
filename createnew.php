@@ -5,7 +5,7 @@ $status = false;
 $error = 0;
 $private_key = '';
 
-if(isset($_POST['labName']) && isset($_POST['labPhone']) && !empty($_POST['labPhone'])){
+if(!empty($_POST['labName']) && !empty($_POST['labPhone']) && !empty($_POST['labSelectedPasscode']) && !empty($_POST['masterKey']) && !empty($_POST['contactPersonName'])){
         
     $data['name']           =   $_POST['labName'];
     $data['phone']          =   $_POST['labPhone'];
@@ -42,7 +42,7 @@ if(isset($_POST['labName']) && isset($_POST['labPhone']) && !empty($_POST['labPh
     }
     
 }else {
-    $error = "Lab Name & Phone is empty.";
+    $error = "Lab Name or Person Name or Phone or passcode or master key is empty.";
 }
 $return = array('status'=> $status, 'private key'=> $private_key, 'error'=> $error );
 $log  = "user: ".$_SERVER['REMOTE_ADDR'].' - '.date("F j, Y, g:i a").PHP_EOL.
