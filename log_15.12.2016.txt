@@ -4,3 +4,39 @@ error: 0
 private_key: 5f40c48afd104bd2f73412783de3b4c9
 action: Create New Lab
 -------------------------
+user: ::1 - December 15, 2016, 11:58 am
+status: 1
+error: 0
+private_key: 078bfcd499fd1d74af2f45520efb6fa1
+action: View Records
+-------------------------
+user: ::1 - December 15, 2016, 11:59 am
+status: 1
+error: 0
+private_key: 70ee2fccf9b39a0ec806c9910a0204b9
+action: View Records
+-------------------------
+user: ::1 - December 15, 2016, 12:00 pm
+status: 1
+error: 0
+private_key: e5f6e8d6b5164ef5ffa69645ef40154a
+action: View Records
+-------------------------
+user: ::1 - December 15, 2016, 12:01 pm
+status: 1
+error: 0
+private_key: 923ef495a37d3af4cb171e26996ecae0
+action: View Records
+-------------------------
+user: ::1 - December 15, 2016, 12:03 pm
+status: 
+error: You Should fill Phone or Email with Name.
+private_key: 
+action: View Records
+-------------------------
+user: ::1 - December 15, 2016, 12:05 pm
+status: 
+error: Name, Email & Phone does not exists.
+private_key: 
+action: View Records
+-------------------------
