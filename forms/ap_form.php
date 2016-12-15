@@ -1,5 +1,5 @@
 <?php
-include("functions.php");
+include("../functions.php");
 $obj = new SiteFunctions();
 $res = $obj->getAllPatients();
 ?>
