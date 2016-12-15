@@ -1,0 +1,45 @@
+user: ::1 - December 14, 2016, 8:50 am
+status: 
+error: PrivateKey or Passcode or Phone number is empty.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 14, 2016, 8:57 am
+status: 
+error: Name, Email & Phone does not exists.
+private_key: 
+action: View Records
+-------------------------
+user: ::1 - December 14, 2016, 8:57 am
+status: 1
+error: 0
+private_key: af549f96453bbb54b0fbe4d451ed0493
+action: View Records
+-------------------------
+user: ::1 - December 14, 2016, 9:00 am
+status: 
+error: You Should fill Phone or Email with Name.
+private_key: 
+action: View Records
+-------------------------
+user: ::1 - December 14, 2016, 9:00 am
+status: 1
+error: 0
+private_key: 3fd7a47261f30520b2a116f9ac55c997
+action: View Records
+-------------------------
+user: ::1 - December 14, 2016, 9:02 am
+status: 1
+error: 0
+success: 
+warning: Patient data already exist.You did not upload the file.
+action: Adding Report
+-------------------------
+user: ::1 - December 14, 2016, 9:03 am
+status: 
+error: PrivateKey or Passcode did not match.
+success: 
+warning: 
+action: Adding Report
+-------------------------

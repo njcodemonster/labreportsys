@@ -1,5 +1,5 @@
 <h1>Report Form :</h1>
-<form action="7CReport.php" method="POST" enctype= "multipart/form-data">
+<form action="../7CReport.php" method="POST" enctype= "multipart/form-data">
     <input type="text" name="PrivateKey" value="6dde1e8317ab07d722c02b3bdba8d5a4" >
     <br><br>
     <input type="text" name="Passcode" value="1234" >

@@ -1,5 +1,5 @@
 <h1>Create New Lab :</h1>
-<form action="createnew.php" method="POST" enctype= "multipart/form-data">
+<form action="../createnew.php" method="POST" enctype= "multipart/form-data">
     <input type="text" name="masterKey" value="1123581321" >
     <br><br>
     <input type="text" name="labSelectedPasscode" value="1234" >

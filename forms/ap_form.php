@@ -3,7 +3,7 @@ include("functions.php");
 $obj = new SiteFunctions();
 $res = $obj->getAllPatients();
 ?>
-<form action="ap.php" method="POST" enctype= "multipart/form-data">
+<form action="../ap.php" method="POST" enctype= "multipart/form-data">
     PrivateKey : <input type="text" name="PrivateKey" value="6dde1e8317ab07d722c02b3bdba8d5a4" >
     <br><br>
     Passcode : <input type="text" name="Passcode" value="1234" >

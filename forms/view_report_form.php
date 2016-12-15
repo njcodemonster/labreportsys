@@ -1,5 +1,5 @@
 <h1>View Report :</h1>
-<form action="viewreport.php" method="POST" enctype= "multipart/form-data">
+<form action="../viewreport.php" method="POST" enctype= "multipart/form-data">
     <input type="text" name="masterKey" value="1123581321" >
     <br><br>
     Name : <input type="text" name="name" value="Patient 1" >
