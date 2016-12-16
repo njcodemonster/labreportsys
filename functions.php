@@ -160,13 +160,7 @@ class SiteFunctions extends Database {
 
         $where = array();
         $res = $this->getManager()->select($this->patients_table, '*', $where);
-//                $this->arr_print($res);
         return $res;
-//                if($res['num_rows']>0){
-//                    return  $res['rows'][0]->p_id;
-//                }else{
-//                    return  false;
-//                }
     }
 
     public function CheckReportByPatientId($patient_id, $file_hash) {
