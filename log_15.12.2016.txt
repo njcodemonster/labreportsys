@@ -40,3 +40,15 @@ error: Name, Email & Phone does not exists.
 private_key: 
 action: View Records
 -------------------------
+user: ::1 - December 15, 2016, 12:14 pm
+status: 1
+error: 0
+private_key: bddd5590561070140a52fac67856cf63
+action: View Reports
+-------------------------
+user: ::1 - December 15, 2016, 12:24 pm
+status: 
+error: Lab Name or Person Name or Phone or passcode or master key is empty.
+private_key: 
+action: Create New Lab
+-------------------------

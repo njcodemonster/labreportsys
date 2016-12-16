@@ -1,16 +1,16 @@
 <h1>Report Form :</h1>
 <form action="../7CReport.php" method="POST" enctype= "multipart/form-data">
-    <input type="text" name="PrivateKey" value="6dde1e8317ab07d722c02b3bdba8d5a4" >
+    PrivateKey : <input type="text" name="PrivateKey" value="" >
     <br><br>
-    <input type="text" name="Passcode" value="1234" >
+    Passcode :<input type="text" name="Passcode" value="" >
     <br><br>
-    Name : <input type="text" name="PatientName" value="abc" >
+    Name : <input type="text" name="PatientName" value="" >
     <br><br>
-    phoneNumber : <input type="text" name="phoneNumber" value="090909" >
+    phoneNumber : <input type="text" name="phoneNumber" value="" >
     <br><br>
-    email : <input type="text" name="email" value="test@gmail.com" >
+    email : <input type="text" name="email" value="" >
     <br><br>
-    reportName : <input type="text" name="reportName" value="My First Report" >
+    reportName : <input type="text" name="reportName" value="" >
     <br><br>
     <input type="file" name="file">
     <br><br>

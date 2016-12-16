@@ -1,0 +1,231 @@
+user: ::1 - December 16, 2016, 11:38 am
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 11:38 am
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 11:39 am
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 11:49 am
+status: 
+error: PrivateKey or Passcode or Phone number is empty.
+success: 
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 11:50 am
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 11:50 am
+status: 1
+error: The same report of this patient already exist.
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 11:51 am
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 11:51 am
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 11:52 am
+status: 1
+error: 0
+success: Patient data submitted.Document uploaded.
+warning: 
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 12:03 pm
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 12:09 pm
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 12:54 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 12:55 pm
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 12:56 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 12:56 pm
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 12:57 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 12:58 pm
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 12:59 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 12:59 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:00 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:00 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:01 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:02 pm
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:05 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:05 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:06 pm
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:06 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:08 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:08 pm
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:08 pm
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:09 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:09 pm
+status: 1
+error: 0
+success: Document uploaded.
+warning: Patient data already exist.
+action: Adding Report
+-------------------------
+user: ::1 - December 16, 2016, 1:09 pm
+status: 1
+error: The same report of this patient already exist.
+success: 
+warning: Patient data already exist.
+action: Adding Report
+-------------------------

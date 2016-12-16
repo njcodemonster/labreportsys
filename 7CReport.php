@@ -1,4 +1,5 @@
 <?php
+
 include("functions.php");
 $obj = new SiteFunctions();
 
@@ -19,7 +20,6 @@ if (!empty($_POST['PrivateKey']) && !empty($_POST['Passcode']) && !empty($_POST[
     $lab_id = $obj->CheckLabPassKey($auth_data);
     if ($lab_id) {
         $ret = $obj->CheckLabAuth($lab_id, $ip);
-
         if ($ret == true) {
 
             if (!empty($_POST['PatientName']) && !empty($_POST['phoneNumber']) && !empty($_POST['email'])) {
@@ -35,9 +35,6 @@ if (!empty($_POST['PrivateKey']) && !empty($_POST['Passcode']) && !empty($_POST[
                     $warning = "Patient data already exist.";
                 }
                 $status = true;
-                
-                
-                
             } else if (empty($_POST['PatientName']) && !empty($_POST['phoneNumber']) && !empty($_POST['email'])) {
 
                 $p_check = $obj->CheckPatient(null, $_POST['phoneNumber'], $_POST['email']);
@@ -52,7 +49,6 @@ if (!empty($_POST['PrivateKey']) && !empty($_POST['Passcode']) && !empty($_POST[
                 }
                 $patient_id;
                 $status = true;
-                
             } else if (empty($_POST['PatientName']) && !empty($_POST['phoneNumber']) && empty($_POST['email'])) {
 
                 $p_check = $obj->CheckPatient(null, $_POST['phoneNumber'], null);
@@ -67,7 +63,6 @@ if (!empty($_POST['PrivateKey']) && !empty($_POST['Passcode']) && !empty($_POST[
                 $patient_id;
                 $status = true;
                 $warning = "You did not enter the email.";
-                
             } else if (!empty($_POST['PatientName']) && !empty($_POST['phoneNumber']) && empty($_POST['email'])) {
 
                 $p_check = $obj->CheckPatient($_POST['PatientName'], $_POST['phoneNumber'], null);
@@ -88,44 +83,60 @@ if (!empty($_POST['PrivateKey']) && !empty($_POST['Passcode']) && !empty($_POST[
             if (isset($_FILES['file']) && !empty($_FILES['file']['name'])) {
 
                 // settings
-                $thumb_img = $_FILES['file'];
+                $report_file = $_FILES['file'];
                 $max_file_size = 1024 * 3000; // 900kb 3mb
                 $valid_exts = array('docx', 'doc', 'pdf');
 
                 // get file extension
-                $ext = strtolower(pathinfo($thumb_img['name'], PATHINFO_EXTENSION));
+                $ext = strtolower(pathinfo($report_file['name'], PATHINFO_EXTENSION));
 
                 if (in_array($ext, $valid_exts)) {
                     /* resize image */
-                    $uniqId = time() . uniqid(5) . "." . $ext;
-                    $fPath = 'reports/' . $uniqId;
-                    $filename = $uniqId;
-                    $thumb_name = $uniqId;
-                    $aa = "reports/" . $uniqId;
-                    move_uploaded_file($thumb_img['tmp_name'], $aa);
+                    $file_hash = md5_file($report_file['tmp_name']);
 
-                    //Insert Report
-                    $report_type_id = $obj->AddReportType($patient_id, $filename);
+                    $is_report_exist = $obj->CheckReportByPatientId($patient_id, $file_hash);
+                    if ($is_report_exist === true) {
+                        $output = $obj->folder_exist('reports/'.$lab_id);
+                        if($output === false){
+                            mkdir('reports/'.$lab_id);
+                            $folder_dist = 'reports/'.$lab_id. '/';
+                        }else{
+                            $folder_dist = 'reports/'.$lab_id. '/';
+                        }
+//                        echo "output : ".$output;
+                        
+                        $uniqId = $patient_id . "_" .time() . "." . $ext;
+                        $fPath = $folder_dist . $uniqId;
+                        $filename = $uniqId;
+                        $thumb_name = $uniqId;
+                        $aa = $folder_dist . $uniqId;
+                        move_uploaded_file($report_file['tmp_name'], $aa);
 
-                    //$lab_id.$patient_id.$report_type_id
-                    $obj->AddReportName($report_name, $report_type_id, $lab_id);
-                    if (!empty($_POST['email'])) {
-                        $status = true;
-                        $success .= "Document uploaded.";
-                        //$return = array('status' => true, 'error' => 0, 'msg' => "Document uploaded.");
+                        //Insert Report
+                        $report_type_id = $obj->AddReportType($patient_id, $filename, $file_hash);
+
+                        //$lab_id.$patient_id.$report_type_id
+                        $obj->AddReportName($report_name, $report_type_id, $lab_id);
+                        if (!empty($_POST['email'])) {
+                            $status = true;
+                            $success .= "Document uploaded.";
+                            //$return = array('status' => true, 'error' => 0, 'msg' => "Document uploaded.");
+                        } else {
+                            $status = true;
+                            $warning .= "Document uploaded with no Email";
+                            //$return = array('status' => true, 'error' => 0, 'warning' => "Document uploaded with no Email", 'msg' => "Document uploaded.");
+                        }
                     } else {
-                        $status = true;
-                        $warning .= "Document uploaded with no Email";
-                        //$return = array('status' => true, 'error' => 0, 'warning' => "Document uploaded with no Email", 'msg' => "Document uploaded.");
+                        $error = "The same report of this patient already exist.";
                     }
                 } else {
                     $warning .= "Unsupported file.";
-                    
+
 //              $msg = 'Unsupported file';
                     //$return = array('status' => false, 'error' => "Unsupported file.");
                 }
-            }else{
-                
+            } else {
+
                 $status = true;
                 $warning .= "You did not upload the file.";
             }
@@ -147,14 +158,14 @@ if (!empty($_POST['PrivateKey']) && !empty($_POST['Passcode']) && !empty($_POST[
 //    print_r(json_encode($return));
 }
 $return = array('status' => $status, 'error' => $error, 'success' => $success, 'warning' => $warning);
-$log  = "user: ".$_SERVER['REMOTE_ADDR'].' - '.date("F j, Y, g:i a").PHP_EOL.
-        "status: ".$status.PHP_EOL.
-        "error: ".$error.PHP_EOL.
-        "success: ".$success.PHP_EOL.
-        "warning: ".$warning.PHP_EOL.
-        "action: Adding Report".PHP_EOL.
-        "-------------------------".PHP_EOL;
+$log = "user: " . $_SERVER['REMOTE_ADDR'] . ' - ' . date("F j, Y, g:i a") . PHP_EOL .
+        "status: " . $status . PHP_EOL .
+        "error: " . $error . PHP_EOL .
+        "success: " . $success . PHP_EOL .
+        "warning: " . $warning . PHP_EOL .
+        "action: Adding Report" . PHP_EOL .
+        "-------------------------" . PHP_EOL;
 //Save string to log, use FILE_APPEND to append.
-file_put_contents('log_'.date("j.n.Y").'.txt', $log, FILE_APPEND);
+file_put_contents('log_' . date("j.n.Y") . '.txt', $log, FILE_APPEND);
 print_r(json_encode($return));
 ?>

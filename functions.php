@@ -34,9 +34,9 @@ class SiteFunctions extends Database {
         return $res;
     }
 
-    public function AddReportType($patient_id, $document) {
+    public function AddReportType($patient_id, $document, $file_hash) {
 
-        $data = array('p_id' => $patient_id, 'document_url' => $document);
+        $data = array('p_id' => $patient_id, 'document_url' => $document, 'document_hash' => $file_hash);
         $res = $this->getManager()->insert($this->reports_table, $data, true);
         $res = $res['last_id'];
         return $res;
@@ -93,7 +93,7 @@ class SiteFunctions extends Database {
             $qry = "select * from $this->patients_table where name IS NULL and phone ='" . $phone . "' and email IS NULL";
             $res = $this->getManager()->custom_query($qry);
         } else if (!empty($p_name) && !empty($phone) && empty($email)) {
-            $qry = "select * from $this->patients_table where name ='".$p_name."' and phone ='" . $phone . "' and email IS NULL";
+            $qry = "select * from $this->patients_table where name ='" . $p_name . "' and phone ='" . $phone . "' and email IS NULL";
             $res = $this->getManager()->custom_query($qry);
         }
 
@@ -155,7 +155,7 @@ class SiteFunctions extends Database {
 //                    return  false;
 //                }
     }
-    
+
     public function getAllPatients() {
 
         $where = array();
@@ -167,6 +167,24 @@ class SiteFunctions extends Database {
 //                }else{
 //                    return  false;
 //                }
+    }
+
+    public function CheckReportByPatientId($patient_id, $file_hash) {
+
+        $where = array('p_id' => $patient_id, 'document_hash' => $file_hash);
+        $res = $this->getManager()->select($this->reports_table, '*', $where);
+        if ($res['num_rows'] > 0) {
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    function folder_exist($folder) {
+        // Get canonicalized absolute pathname
+        $path = realpath($folder);
+        // If it exist, check if it's a directory
+        return ($path !== false AND is_dir($path)) ? $path : false;
     }
 
 }
